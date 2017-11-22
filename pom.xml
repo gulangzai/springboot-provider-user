@@ -10,7 +10,7 @@
 	<groupId>jiujichina.com</groupId>
 	<artifactId>springboot-provider-user</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<dependencies>
   
         <dependency>

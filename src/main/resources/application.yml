@@ -24,12 +24,12 @@ spring:
    mybatis:
       mapperLocations:classpath:mapper/*.xml
       typeAliasesPackage:com.jiujichina.model 
-   eureka: 
-    client: 
-     serviceUrl: 
-         defaultZone: http://121.42.185.68:8761/eureka/
-         register-with-eureka: false
-         fetch-registry: false
-    instance: 
-      prefer-ip-address: true
+eureka: 
+  client: 
+    serviceUrl: 
+       defaultZone: http://121.42.185.68:8761/eureka/
+       register-with-eureka: false
+       fetch-registry: false
+  instance: 
+    prefer-ip-address: true
        

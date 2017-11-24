@@ -27,7 +27,7 @@ public class MyBatisConfig {
 	   Resource mybatisConfigXml = resolver.getResource("classpath:mybatis/mybatis-config.xml");
 	   sqlSessionFactoryBean.setConfigLocation(mybatisConfigXml);
 	   //
-	   sqlSessionFactoryBean.setTypeAliasesPackage("com.jiujichina.mybatis");
+	   sqlSessionFactoryBean.setTypeAliasesPackage("com.jiujichina");
 	   return sqlSessionFactoryBean;
    }
 }
